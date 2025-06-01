@@ -1,0 +1,97 @@
+*{
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main{
+
+    margin: 7rem 33rem;
+    border: solid 0.1rem gray;
+    border-radius: 1rem;
+    box-shadow: 0.3rem 0.3rem 0 darkblue;
+
+}
+
+
+form {
+
+    text-align: center;
+}
+
+
+
+h2{
+
+    display: inline-block;
+    font-size: 1rem;
+    overflow: hidden;
+}
+
+h1{
+
+    text-align: center;
+}
+
+.login{
+
+    cursor: pointer;
+    background: linear-gradient(to right, blue, darkblue);
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 0.4rem;
+    
+}
+
+.signup{
+
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+
+}
+
+input{
+
+    padding: 0.8rem 4rem 0.8rem 1rem;
+    border-radius: 0.5rem;
+    border: solid 0.1rem gray;
+    margin-top: 1rem;
+}
+
+button{
+
+    cursor: pointer;
+    padding: 0.5rem 6rem;
+    border-radius: 0.5rem;
+    border: none;
+    background: linear-gradient(to right, blue, darkblue);
+    color: white;
+    font-size: 1.1rem;
+    transition-duration: 0.5s;
+
+}
+
+button:hover{
+
+    transform: scale(110%);
+    transition-duration: 0.5s;
+}
+
+.forgot-pass{
+
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 7rem;
+    font-size: 0.9rem;
+}
+
+.text{
+
+    display: inline-block;
+}
+
+.text-2{
+
+    cursor: pointer;
+    color: darkblue;
+    font-weight: bold;
+}
